@@ -3,7 +3,7 @@ from datetime import datetime
 
 class Problem:
     def __init__(self):
-        self.handle = "Md_Almizan"
+        self.handle = "almizan"
         self.all_problems = []
         self.get_problems(self.handle)
 

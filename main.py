@@ -216,7 +216,7 @@ def main():
         success_rate = (len(processed_df[processed_df['verdict'] == 'OK']) / len(processed_df)) * 100
         print(f"\nOverall Success Rate: {success_rate:.2f}%")
 
-    cf_rating = CodeforcesRating("Md_Almizan")
+    cf_rating = CodeforcesRating("almizan")
     cf_rating.plot_rating_history()
 
 
